@@ -101,7 +101,7 @@ function color2(){
   update();
 }
 
-function color2(){
+function color3(){
   if (num!=2) {
     wrong();
   }
