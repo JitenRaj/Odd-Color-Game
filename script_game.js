@@ -1,25 +1,26 @@
 alert(`There are 9 circles and 8 circles have the same color, your task is to click on the circle having different color `)
+alert(`You will be get +10 points for correct pick and -15 points for wrong pick`)
 
 function load(){
-  document.getElementById("loader").style.display="none";
+    document.getElementById("loader").style.display="none";
   document.getElementById("game_con").style.display="flex";
-    start();
+  start();
 }
 
-setTimeout(load,5000)
+setTimeout(load,2000)
 function start(){
-  var color,num,oddcircle,random_color,r,g,b,odd_color;
+  var num,oddcircle,random_color,r,g,b,odd_color;
   function restart(){
-    score=-10;
-    time=100;
-    document.getElementById("game_con").style.display=flex;
-    document.getElementById("cn_menu").style.display=none;
+    score = -10;
+    time = 100;
+    document.getElementById("game_con").style.display="flex";
+    document.getElementById("cn_menu").style.display="none";
       update();
 }
 var score = -10;
 var time = 100;
 function wrong(){
-  score = -15;
+  score -= 15;
 }
 
 var circle1 = document.getElementById("component1");
@@ -70,8 +71,8 @@ function update(){
   g = Math.floor(Math.random()*235);
   b = Math.floor(Math.random()*235);
 
-  random_color= "rgb"+("+r+","+g+","+b+");
-  odd_color="rgb"+("+(r+20)","+(g+20)","+(b+20)");
+  random_color= "rgb"+"("+r+","+g+","+b+")";
+  odd_color="rgb"+"("+(r+20)+","+(g+20)+","+(b+20)+")";
   oddcircle = ar[num];
   score+=10;
   document.getElementById("score").innerHTML="Score : "+score;
