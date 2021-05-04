@@ -1,6 +1,6 @@
 # ODD COLOR GAME
 ## Using HTML, CSS & JavaScript !!
 
-<a href="https://ji10raj.github.io/Odd-Color-Game.github.io/"> Start the GAME </a>
+# <b> [ START THE GAME ](https://ji10raj.github.io/Odd-Color-Game.github.io/) <b>
 
-<img src="https://github.com/ji10raj/Odd-Color-Game/blob/main/odd_color.JPG" width=95% alt="color cicles">
+<img src="https://github.com/ji10raj/Odd-Color-Game.github.io/blob/main/odd_color.JPG" width=95% alt="color cicles">
